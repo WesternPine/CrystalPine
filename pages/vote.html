@@ -12,8 +12,7 @@
     <link rel="icon" href="../lib/IMG/logo.png">
     <link rel="stylesheet" href="../lib/CSS/style.css">
     
-    <link rel="stylesheet" href="../lib/CSS/index-style.css">
-
+    <link rel="stylesheet" href="../lib/CSS/vote-style.css">
   </head>
   
   <header>
@@ -29,11 +28,24 @@
     </nav>
   </header>
   
-  <div class="container">
-    <div class="body">
-      
-      
-      
+  <div class="body">
+    
+    <div class="intro">
+      <h1 class="pageTitle">Voting Carousel</h1>
+      <p class="pageDescription">After voting, navigate to the next site using the arrows!</p>
+    </div>
+    
+    <div class="carouselContainer">
+      <i class="fas fa-arrow-left" id="prev"></i>
+      <i class="fas fa-arrow-right" id="next"></i>
+      <div id="carouselSlide">
+        <iframe class="page" id="lastClone" src="http://crystalpine.tebex.io/" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+        <iframe class="page" src="https://westernpine.dev" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+        <iframe class="page" src="https://minecraftservers.org/server/410060" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+        <iframe class="page" src="https://minecraftservers.org/server/410060" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+        <iframe class="page" src="http://crystalpine.tebex.io/" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+        <iframe class="page" id="firstClone" src="https://westernpine.dev" allowtransparency="true" frameborder="0">Page Unavailible.</iframe>
+      </div>
     </div>
   </div>
   
@@ -42,6 +54,6 @@
     <a id="sourcecode" href="https://github.com/WesternPine/CrystalPine" target="_blank">View Sourcecode</a>
   </footer>
   
-  <script src="../lib/JS/copy.js"></script>
+  <script src="../lib/JS/carousel.js"></script>
   
 </html>
