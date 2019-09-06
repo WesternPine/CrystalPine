@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "url": "/",
+      "file": "pages/index.html"
+    },
+    {
+      "url": "/store",
+      "file": "pages/store.html"
+    },
+    {
+      "url": "/vote",
+      "file": "pages/vote.html"
+    }
+  ]
+}

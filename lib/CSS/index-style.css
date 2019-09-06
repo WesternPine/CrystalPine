@@ -1,0 +1,162 @@
+#background{  
+  /* The image used */
+  background-image: url("../IMG/background.png");
+
+  /* Add the blur effect */
+
+  /* Full height */
+  min-height: 86.9vh;
+  min-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  z-index: 0;
+}
+
+#imageBody{
+  position: relative;
+  z-index: 1;
+  
+  width: 100%;
+  height: 100%;
+}
+
+.widgets{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+  width: 350px;
+  height: 814.25px;
+  
+  float: right;
+  
+}
+
+#ip{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background: #FFF;
+  
+  border:0px;
+  border-style: solid;
+  border-radius: 5px;
+  
+  width: 300px;
+}
+
+#ipTitle{
+  width: 100%;
+  
+  line-height: 40px;
+  
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  
+  color: #FFF;
+  background: #08F;
+  position: relative;
+  
+  border:0px;
+  border-style: solid;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#copy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  background: #FFF;
+  
+  border:1px;
+  border-style: solid;
+  border-radius: 3px;
+  
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#copyText{
+  padding: 3px;
+  
+  border: none;
+  outline: none;
+  font-size: 16px;
+  
+  resize: none;
+  width: 170px;
+  height: 25px;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyButton{
+  background: #FFF;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+  border: none;
+  border-left: 1px solid #000;
+  outline: none;
+}
+
+#intro{
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  
+  width: 99%;
+  
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#PageTitle{
+  margin: 50px auto;
+  justify-content: center;
+  
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  
+  color: #FFF;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#PageDescription{
+  margin: 50px auto;
+  justify-content: center;
+  
+  font-size: 38px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  
+  color: #DDD;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+

@@ -1,0 +1,155 @@
+/*
+
+Text Color: #DDD
+Hidden Text Color: #555
+
+Nav BGC: #111
+Body BGC: #222
+Footer BGC: #111
+
+Lighter BGC: #333;
+
+Hover Link Color: #FFF
+
+*/
+
+/*Website font*/
+html{
+  font-family: 'Barlow', 'Open Sans', 'Source Sans Pro', 'sans-serif', 'Helvetica';
+  height: 100%;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+  position: relative;
+  height: 9vh;
+}
+
+/*Navigation shtuffs*/
+nav{
+  position: absolute;
+  width: 100%;
+  
+  display: flex;
+  justify-content: centered;
+  align-items: center;
+  
+  height: 9vh;
+  
+  background: #08F;
+  color: #FFF;
+  
+  z-index: 1;
+}
+
+nav h1{
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 45px;
+  letter-spacing: 2px;
+  
+  float: left;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  
+  float: right;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav a{
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+nav ul li{
+  color: #FFF;
+  
+  border: 0px;
+  border-style: solid;
+  border-radius: 0px;
+  
+  padding: 4px 8px;
+  
+  text-transform: uppercase;
+
+  transition: color ease-in-out 200ms, background-color ease-in-out 200ms;
+}
+nav ul li:hover {
+  background-color: #06D;
+  
+  border: 0px;
+  border-style: solid;
+  border-radius: 0px;
+}
+
+/*General class object*/
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+  overflow: hidden;
+}
+
+/*General page*/
+body{
+  background-color: #DDD;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0px;
+  min-height: 86.9vh;
+}
+
+/*Set link properties*/
+a{
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFF;
+  text-shadow: 0 0 2px #FFF;
+  transition: all 100ms ease-in-out;
+}
+
+/*Set footer properties*/
+footer{
+  background: #08F;
+  color: #FFF;
+  margin-top: 0px;
+  padding: 5px;
+  
+  height: 3vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#copyright{
+  margin-left: 20px;
+  margin-right: auto;
+  font-style: italic;
+}
+
+#sourcecode{
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+/*To ensure footer still gets displayed if not loaded (because something wouldnt be in it)*/
+footer::after{
+  content: '';
+  display: table;
+  clear: both;
+}
